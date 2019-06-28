@@ -1,0 +1,37 @@
+.grid .header-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid .icon {
+  font-size: 80px;
+  text-align: center;
+}
+
+.grid {
+  padding-top:10px;
+  cursor: pointer;
+  margin-top:10px;
+}
+
+.grid {
+  transition: 0.5s all ease;
+  animation: 2s bounceIn;
+}
+
+.col-lg-2:hover, .selected-grid  {
+  background-color: #673ab7;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+hr {
+  width: 100%;
+}
+
+.form-question .mat-form-field {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}

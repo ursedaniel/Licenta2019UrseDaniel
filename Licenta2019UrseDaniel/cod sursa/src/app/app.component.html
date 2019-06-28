@@ -1,0 +1,6 @@
+<app-header></app-header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+<loader></loader>
+<app-connectionmodal *ngIf="showModal" [conn]="conn" (notify)="showModal = $event" [connCanceled]="connCanceled"></app-connectionmodal>
